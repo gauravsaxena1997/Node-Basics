@@ -1,6 +1,5 @@
 // let http = require('http');
 // let fs = require('fs');
-let events = require('events');
 
 // http.createServer( function(req,res){
 //     res.writeHead(200,{'Content-Type': 'text/plain'});
@@ -20,16 +19,3 @@ let events = require('events');
 //     console.log(data.toString());
 // });
 // console.log('Program Ends');
-
-// Events --------------
-// eventEmitter = new events.EventEmitter();
-// connectHandler = () => {
-//     console.log('Connection Successful...');
-//     eventEmitter.emit('data_received');
-// }
-// eventEmitter.on('connection',connectHandler);
-// eventEmitter.on('data_received',()=>{
-//     console.log('Data received.');   
-// });
-// eventEmitter.emit('connection');
-// console.log('Program ended.');
