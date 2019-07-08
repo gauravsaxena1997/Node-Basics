@@ -1,5 +1,6 @@
 // let http = require('http');
 // let fs = require('fs');
+let os = require('os');
 
 // http.createServer( function(req,res){
 //     res.writeHead(200,{'Content-Type': 'text/plain'});
@@ -19,3 +20,6 @@
 //     console.log(data.toString());
 // });
 // console.log('Program Ends');
+
+// console.log(os.cpus());
+console.log(os.networkInterfaces());
